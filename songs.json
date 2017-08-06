@@ -1,0 +1,28 @@
+{
+  "songs": [
+    {
+      "id": 1,
+      "title": "Sharp Dressed Man",
+      "artist": "ZZ Top",
+      "album": "Eliminator"
+    },
+    {
+      "id": 2,
+      "title": "Breakfast in America",
+      "artist": "Supertramp",
+      "album": "Breakfast in America"
+    },
+    {
+      "id": 3,
+      "title": "Goodbye Mary",
+      "artist": "Supertramp",
+      "album": "Breakfast in America"
+    },
+    {
+      "id": 4,
+      "title": "Carry on My Wayward Son",
+      "artist": "Kansas",
+      "album": "Overture"
+    }
+  ]
+}
