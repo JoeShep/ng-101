@@ -4,7 +4,7 @@
   <title>Angular 101</title>
 </head>
 <body ng-app="funWithStuff">
-  <h1>Welcome to the Magic</h1>
+  <!-- <h1>Welcome to the Magic</h1> -->
 
 <!--   <input type="text" ng-model="coolBinding" placeholder="This input is bound to...">
   <span>this: {{coolBinding.toUpperCase()}}</span>
@@ -45,25 +45,14 @@
       Will this work? {{wow}}
     </p>
   </div> -->
-
-
-
-
-
-
-
-  <div ng-include=" 'partials/header.html' "></div>
+  <!-- <div ng-include=" 'partials/header.html' "></div> -->
 
   <div ng-view></div>
-
-
-
-
-
 
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-route.js"></script>
   <script src="app.js"></script>
-  <script type="messageCtrl.js"></script>
+  <script src="messageCtrl.js"></script>
+  <script src="recipeCtrl.js"></script>
 </body>
 </html>

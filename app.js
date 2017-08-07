@@ -12,6 +12,10 @@ myApp.config( ($routeProvider) => {
     templateUrl: 'partials/todo-list.html',
     controller: 'TodoController'
   })
+  .when('/api', {
+    templateUrl: 'partials/recipe-search.html',
+    controller: 'RecipeController'
+  })
   .otherwise('/');
 });
 
